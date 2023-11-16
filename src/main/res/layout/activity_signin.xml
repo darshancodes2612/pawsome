@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signin">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/topleft"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/back"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="-138dp"
+            android:background="@drawable/roundbtn1"
+            android:drawableStart="@drawable/backarrow"
+            android:paddingLeft="8.3dp"
+            tools:ignore="InvalidId" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/topright"
+            android:layout_marginLeft="182dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="178dp"
+            android:src="@drawable/bottom_left"
+            android:layout_marginLeft="-409.5dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bottom_right"
+            android:layout_marginTop="178dp"
+            android:layout_marginLeft="112.5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="-298dp"
+            android:text="Welcome Owner"
+            android:textSize="28dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="354dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="-253dp"
+            android:text="This is a one time login"
+            android:textSize="29sp"/>
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="370dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="449dp"
+            android:layout_marginStart="-387dp"
+            android:background="@drawable/roundtext"
+            android:hint="UserName"
+            android:padding="10dp"
+            android:textColor="#B2B4BA"/>
+        <EditText
+            android:id="@+id/device_id"
+            android:layout_width="370dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="529dp"
+            android:layout_marginStart="-371dp"
+            android:background="@drawable/roundtext"
+            android:hint="DEVICE ID"
+            android:padding="10dp"
+            android:textColor="#B2B4BA"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login"
+            android:layout_width="370dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="612dp"
+            android:layout_marginStart="-371dp"
+            android:background="@drawable/button1"
+            android:text="LOG IN "
+            tools:ignore="HardcodedText"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="17dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

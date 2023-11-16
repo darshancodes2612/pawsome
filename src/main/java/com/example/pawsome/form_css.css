@@ -1,0 +1,46 @@
+h2{
+    margin: 20px;
+    font-weight: bolder;
+}
+h3{
+    margin: 20px;
+    font-weight: unset;
+}
+.dashed-line{
+    margin: 20px;
+    border-top:2px dashed black;
+}
+h3{
+    margin: 20px;
+    font-weight: normal;
+}
+.input-row {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px; 
+  }
+  
+  .input-container {
+    margin-right: 20px;
+  }
+  
+  .input-container input {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 4.5px;
+  }
+.dob-container{
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+}
+  .input-dob-container{
+    margin-right: 20px;
+  }
+  .input-dob-container input{
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+
